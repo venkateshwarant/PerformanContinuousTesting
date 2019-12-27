@@ -1,5 +1,12 @@
 # PerformantContinuousTesting
 
+## Prerequisite
+1. Follow tutorial in https://github.com/venkateshwarant/UAT to create a UAT using testNG to run test sequentially
+2. Follow tutorial in https://github.com/venkateshwarant/SeleniumGrid to create a selenium grid, so that we can run automation in that node
+3. Follow tutorial in https://github.com/venkateshwarant/Creating_Integration_Server to create an integration server and integrate our test cases in pipeline
+4. Follow tutorial in https://github.com/venkateshwarant/Creating-Stage-VM, so that we can deploy our product in the stage-vm before starting automation
+
+
 ## Running test cases parallely in TestNG
 
 TestNG is a testing framework for Java that helps to organize tests in a structured way and enhances maintainability and readability to the scripts. TestNG has made it easier for automation testers owing to its large feature set. One of which is parallel testing or parallel execution. TestNG provides an auto-defined XML file, where one can set the parallel attribute to method/tests/classes and by using the concept of multi-threading of Java, one can set the number of threads, one wants to create for parallel execution. Below is the structure for defining this attribute in the TestNG XML:
