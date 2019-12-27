@@ -102,7 +102,7 @@ public static void configureDriver() throws MalformedURLException {
 
 In this you can see that there are 5 test methods, each doing the same job of testing our product helloworld page.
 
-If we run the test case via the testNG.xml file as a test suite, we can see that all the 5 test methods run parallely and the order of completion is totally random, since it is running parally
+If we run the test case via the testNG.xml file as a test suite, we can see that all the 5 test methods run parallely and the order of completion is totally random, as it is running parallely
 
 sample output: 
 
