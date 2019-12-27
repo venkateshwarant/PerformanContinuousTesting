@@ -1,0 +1,22 @@
+image: maven:latest
+
+stages:
+  - deploy
+  - test
+cache:
+  paths:
+    - target/
+
+test_app:
+  stage: test
+  script:
+    - mvn test
+
+deploy:
+    stage: deploy
+    tags:
+    - stage-vm-shell
+    script:
+    - pwd
+    - ls
+    - cp src/main/java/helloworld.html /home/vagrant/stage
