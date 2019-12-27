@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Group of group Suite" verbose="1" parallel="methods" thread-count="5">
+  <test name="Group of group Test">
+    <classes>
+
+         <!-- <class name="Tutorial1.TestGoogleSearchEngine" /> -->
+<!--          <class name="Tutorial2.TestForms" />
+ -->         <class name="performantTesting.TestNG.RemoteParallelTestExecution" />
+         
+<!--          <class name="Tutorial3.TestServerWebpage" />-->
+     </classes>
+
+  </test>
+</suite>
