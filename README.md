@@ -132,4 +132,4 @@ Total tests run: 5, Failures: 0, Skips: 0
 
 ## Integrating test cases in pipeline
 
-There is no difference between sequential and parallel test execution while integrating it in pipeline, so follow tutorial in https://github.com/venkateshwarant/UAT to integrate it in pipeline
+To integrate test cases in pipeline, there is no difference between sequential and parallel test execution, so follow tutorial in https://github.com/venkateshwarant/UAT to integrate it in pipeline
